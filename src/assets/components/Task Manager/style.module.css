@@ -1,0 +1,49 @@
+/* style.module.css */
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.taskText {
+    font-weight: bold;
+    flex-grow: 1;
+    color: #333;
+}
+
+.dueDate {
+    color: #666;
+    font-size: 0.9em;
+    font-style: italic;
+    background-color: #e9ecef;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.removeBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+}
+
+.removeBtn:hover {
+    background-color: #c82333;
+}
