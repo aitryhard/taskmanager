@@ -32,7 +32,7 @@ const AddTaskForm = ({ addTask }) => {
                 value={dueDate}
                 onChange={handleDateChange}
             />
-            <button type="submit">add</button> {/* Лучше использовать button вместо input */}
+            <button type="submit">add</button>
         </form>
     )
 }
