@@ -2,8 +2,7 @@ import style from "./style.module.css"
 import { useState } from "react"
 
 const Greeting = () =>{
-    //let counter = 0
-    const [counter, setCounter] = useState(0) // -> [0, ]
+    const [counter, setCounter] = useState(0)
     const [userInput, setUserInput] = useState("")
 
 
@@ -21,7 +20,6 @@ const Greeting = () =>{
             <h2>How are you?</h2>
             <input type="number" value={userInput} onChange={handleChange}/>
             <button className={style.button} onClick={increment}>Click Count: {counter} </button>
-
         </div>
     )
 }
