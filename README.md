@@ -1,6 +1,6 @@
 # task-manager
 
-Minimal task management application built with React and Node.js.
+Minimal task management application built with React and Node.js
 
 ## stack
 
