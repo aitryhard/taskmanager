@@ -1,22 +1,10 @@
-# task-manager
+# taskmanager
 
-Minimal task management application built with React and Node.js.
+Minimal task management app with CRUD operations and REST API.
 
-## stack
+**Stack:** React В· Node.js В· Express В· MongoDB
 
-- React
-- Node.js
-- Express
-- MongoDB
-
-## features
-
-- task creation
-- task editing
-- task deletion
-- REST API
-
-## run
+## Run
 
 ```bash
 npm install
